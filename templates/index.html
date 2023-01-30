@@ -1,0 +1,24 @@
+<!Doctype html>
+
+<html>
+<haed>
+    <title>api</title>
+</head>
+<body>
+
+<table border=1>
+<tr>
+    <th>scheme name</th>
+    <th>nav</th>
+</tr>
+{%for i in data%}
+<tr>
+    <td>{{i.fund_house}}</td>
+    <td>{{i.nav}}</td>
+</tr>
+{% endfor %}
+</table>
+
+</body>
+
+</html>
